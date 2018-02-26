@@ -12,7 +12,7 @@ python -m venv virtual
 
 //to install a module in the the virtual environment
 ./virtual/Scripts/pip install flask
-./virtual/scripts/python
+./virtual/scripts/python script1.py
  ./virtual/Scripts/pip freeze
 
 Download 'heroku toolbelt' so you can push to heroku and manage your server
@@ -29,3 +29,8 @@ pip install gunicorn
 
 //view status of heroku server
 heroku info
+
+//initialized git to push to heroku with the app called matt305
+heroku git:remote --app matt305
+
+heroku
