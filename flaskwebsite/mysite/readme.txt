@@ -1,13 +1,15 @@
 Install flask module  :
 pip install Flask
 
+install Bokeh and Pandas
+
 Install virtual env  module so you only use module needed
 pip install virtualenv
 
 to view only module Install
 pip freeze
 
-//create a virtual environment name virtual
+//create a virtual environment folder name virtual
 python -m venv virtual
 
 //to install a module in the the virtual environment
